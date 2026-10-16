@@ -13,7 +13,8 @@ This script would find your files locations and list on it. And jump into that f
 
 ## How to use
 - Add this scripts line into bottom of your "~/.bashrc"
+- type "jj "filename"" then, files appear.
 
 ## License
 - Please refer LISENCE.
-- 
+  
