@@ -1,0 +1,13 @@
+
+jj() {
+  local target
+  target=$(find . 2>/dev/null | fzf --query "$1") || { echo "cancelled"; return; }
+  echo "selected: $target"
+  if [ -d "$target" ]; then
+    cd "$target" || return
+  else
+    cd "$(dirname "$target")" || return
+  fi
+  pwd
+}
+
