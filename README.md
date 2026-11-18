@@ -66,5 +66,4 @@ source ~/.bashrc
 
 Please refer to `LISENCE`.
 
-[description](LICENSE)
 license is "[LICENSE](LICENSE)"
